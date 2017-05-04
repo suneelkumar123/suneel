@@ -5,7 +5,7 @@ ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3eda
 
 
 $(document).on('click', '.chart-pane-tab', function(event) {
-
+console.log("asdasdadasdas");
     var board_value = $('.chart-title-text').html();
     board_value=board_value.split(":");
     board_value=board_value[1].replace(/\s+/g, '');
